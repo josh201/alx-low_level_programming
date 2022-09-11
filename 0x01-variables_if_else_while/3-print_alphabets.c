@@ -7,8 +7,8 @@
   */
 int main(void)
 {
-	char ch
-	char CH
+	char ch;
+	char CH;
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
