@@ -5,7 +5,7 @@
   *
   * Return: Always 0 (Success)
   */
-int main(coid)
+int main(void)
 {
 	char ch;
 
