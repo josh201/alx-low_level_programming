@@ -21,15 +21,16 @@ int main(void)
 				putchar(b + '0');
 				putchar(c + '0');
 
-				if (a < 8)
+				if (a < 9)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
 		}
-		putchar('\n');
-
-		return (0);
+		
 	}
+	putchar('\n');
+
+	return (0);
 }
