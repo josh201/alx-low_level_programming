@@ -3,8 +3,8 @@
 /**
   * main - Entry point
   *
-  * Return: always 0 (Success)
-  */
+  * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int a;
@@ -24,7 +24,7 @@ int main(void)
 				if (a < 8)
 				{
 					putchar(',');
-					putchar(" ");
+					putchar(' ');
 				}
 			}
 		}
