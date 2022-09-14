@@ -3,7 +3,7 @@
   * _isalpha - Alx guide
   * @c: is a letter, lowercase or uppercase
   * main - letter, lowercase or uppercase
-  * Return; either 1 or 0.
+  * Return: either 1 or 0.
   */
 
 int _isalpha(int c)
