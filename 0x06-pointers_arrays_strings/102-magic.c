@@ -4,20 +4,13 @@
  */
 int main(void)
 {
-	int n;
-	int a[5];
-	int *p;
+	int n, a[5], *p;
 
 	a[2] = 1024;
 	p = &n;
 	/*
-	 * main - Entry point
-	 * write your line of code here...
-	 * Remember:
 	 * - you are not allowed to use a
 	 * - you are not allowed to modify p
-	 * - only one statement
-	 * - you are not allowed to code anything else than this line of code
 	 * Return: Always 0
 	 */
 	*(p + 5) = 98;
