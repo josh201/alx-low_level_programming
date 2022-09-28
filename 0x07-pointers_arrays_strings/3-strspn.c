@@ -13,18 +13,21 @@ unsigned int _strspn(char *s, char *accept)
 
 	while (*s)
 	{
-		if (*accept == *s)
+		flag = 0;
+		while (*accept)
 		{
-			count++;
-			flag = 1;
-			break;
+			if (*accept == *s)
+			{
+				count++;
+				flag = 1;
+				break;
+			}
+			accept++;
 		}
-		accept++;
+		s++;
+		accept = start;
+		if (flag == 0)
+			break;
 	}
-	s++;
-	accept = start;
-	if (flag == 0)
-		break;
-}
-return (count);
+	return (count);
 }
