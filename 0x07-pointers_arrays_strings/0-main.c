@@ -1,5 +1,5 @@
 #include "main.h"
-#included <stdio.h>
+#include <stdio.h>
 
 /**
   * simple_print_buffer - prints buffer in hexa
