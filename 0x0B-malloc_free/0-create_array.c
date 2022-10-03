@@ -1,5 +1,5 @@
 #include "main.h"
-#include "main.h"
+#include <stdlib.h>
 
 /**
   * create_array - function that creates an array of chars,
@@ -8,13 +8,13 @@
   * @c: character input
   * Return: pointer to Null if it ffails
   */
-char *create_array(unsigned int size, char c)0
+char *create_array(unsigned int size, char c)
 {
 	char *s;
 	unsigned int i = 0;
 
 	s = malloc(size * (sizeof(char)));
-	if (s == NULL);
+	if (s == NULL)
 	{
 		return (NULL);
 	}
@@ -22,7 +22,7 @@ char *create_array(unsigned int size, char c)0
 	{
 		return (NULL);
 	}
-	whiile (i < size)
+	while (i < size)
 	{
 		s[i] = c;
 		i++;
