@@ -2,11 +2,10 @@
 #include <stdlib.h>
 
 /**
-  * free_grid - free a 20 array of integers
+  * free_grid - free a 2D array of integers
   * @grid: 2D array integer to be filled
   * @height: height of grid
   */
-
 void free_grid(int **grid, int height)
 {
 	int index;
